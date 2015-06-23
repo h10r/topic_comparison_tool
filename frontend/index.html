@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,600' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Topic Comparison Tool</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <div class="navbar-right">
+            <a class="navbar-brand" href="#">Hendrik Heuer</a>
+          </div>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="container">
+        <div class="navigation">
+            <button class="btn btn-default btn-large" id="button_zoom_in">+ Zoom in</button>
+            <button class="btn btn-default btn-large" id="button_zoom_out">- Zoom out</button>
+            <button class="btn btn-default btn-large" id="button_toggle_topic_a">Topics A (On/Off)</button>
+            <button class="btn btn-default btn-large" id="button_toggle_topic_b">Topics B (On/Off)</button>
+            <button class="btn btn-default btn-large" id="button_toggle_topic_i">Topics Intersection (On/Off) </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-lg-4">
+          <div class="input-group">
+            <input id="input_load_file" type="text" class="form-control" value="http://hen-drik.de/topic_comparison_tool/json/game_of_thrones.json">
+            <span class="input-group-btn">
+              <button id="button_load_file" class="btn btn-default" type="button" data-toggle="tooltip" data-placement="right" title="You can also play with the following files:<br/><br/>
+              http://hen-drik.de/topic_comparison/json/world_war_ii.json<br/><br/>
+              http://hen-drik.de/topic_comparison/json/united_states.json<br/><br/>
+              http://hen-drik.de/topic_comparison/json/facebook.json">Load file</button>
+            </span>
+          </div><!-- /input-group -->
+        </div>
+
+        <div class="col-lg-2">
+          <div class="input-group">
+            <span class="input-group-addon">Scale factor</span>
+            <input id="input_scale_factor" type="text" class="form-control" value="0.01">
+          </div><!-- /input-group -->
+        </div>
+
+        <div class="col-lg-4">
+          <button class="btn btn-default btn-large" id="button_scale_in">+ Scale in</button>
+          <button class="btn btn-default btn-large" id="button_scale_out">- Scale out</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="topic_module"></div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+       </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p></p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/topic_compare.js"></script>
+    </body>
+</html>

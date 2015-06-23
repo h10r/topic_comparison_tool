@@ -1,0 +1,51 @@
+
+
+   Author's custom styles
+   ========================================================================== */
+
+svg {
+  background: white;
+  border: 1px solid #d6e9c6;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+.sphere {
+  fill: #fff;
+}
+
+.land {
+  fill: #000;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.jumbotron {
+  padding: 0px 0 25px 0 !important;
+}
+
+
+#topic_module {
+  font-family: 'Source Code Pro', Arial;
+  font-weight: 600;
+
+  background-color: black;
+  border: 5px solid #eee;
+}
+
+.container {
+  margin-top: 20px;
+}
