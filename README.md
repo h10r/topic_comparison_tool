@@ -2,10 +2,29 @@
 
 The tool provides a bird’s-eye view of a text source. It takes a text and maps the words so that semantically and stylistically similar words are close to each other. This enables users to explore a text source like a geographical map. As similar words are close to each other, the user can visually identify clusters of topics that present in the book. Conceptually, it can be understood as a Fourier transformation for texts.
 
-The Topic Comparison module can be used to compare a summary and its source material. To compare the topics, three different sets of words are computed: a source text topic set, a summary topic set, as well as the intersection set of both topic sets. A colour is assigned to each set of words. This enables the user to visually compare the different text sources and to see which topics are covered where. The user can explore the word map and zoom in and out. He or she can also toggle the visibility, i.e. show and hide, certain word sets.
+The tool can be used to compare different text sources, e.g. a summary and its source material or Wikipedia article revisions. To compare the topics, three different sets of words are computed: a source text topic set, a summary topic set, as well as the intersection set of both topic sets. A colour is assigned to each set of words. This enables the user to visually compare the different text sources and to see which topics are covered where. The user can explore the word map and zoom in and out. He or she can also toggle the visibility, i.e. show and hide, certain word sets.
 
-## How it works
+This tool was presented at PyCon Sweden and PyData London. 
 
+The slides and video recordings can be found here:
+
+http://hen-drik.de/research
+
+## How to use this
+
+You can upload the frontend code and use it to explore the precomputed topic sets. 
+
+A demo is also available here:
+
+http://hen-drik.de/topic_comparison_tool/
+
+You can use the backend code to process your own files. Please note that the word2vec vectors are not included. You can generate them using the word2vec C tool, the Python gensim library, or download the vectors precomputed by Google.
+
+word2vec C tool (also has the precomputed vectors)
+https://code.google.com/p/word2vec/
+
+word2vec Python gensim
+https://radimrehurek.com/gensim/models/word2vec.html
 
 ### Pre-processing 
 
