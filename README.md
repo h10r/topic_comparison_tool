@@ -26,6 +26,8 @@ https://code.google.com/p/word2vec/
 word2vec Python gensim
 https://radimrehurek.com/gensim/models/word2vec.html
 
+## How it works
+
 ### Pre-processing 
 
 In the pre-processing step, all sentences are tokenized to extract single words. The tokenization is done using the Penn Treebank Tokenizer implemented in the Natural Language Processing Toolkit (NLTK) for Python. Alternatively, this could also be achieved with a regular expression.
