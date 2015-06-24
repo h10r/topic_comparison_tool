@@ -14,17 +14,23 @@ http://hen-drik.de/research
 
 You can upload the frontend code and use it to explore the precomputed topic sets. 
 
-A demo is also available here:
+An online demo is available here:
 
 http://hen-drik.de/topic_comparison_tool/
 
+Available precomputed topic sets:
+
+* Game of Thrones http://hen-drik.de/topic_comparison_tool/json/game_of_thrones.json
+* Facebook http://hen-drik.de/topic_comparison_tool/json/facebook.json
+* United States http://hen-drik.de/topic_comparison_tool/json/united_states.json
+* World War 2 http://hen-drik.de/topic_comparison_tool/json/world_war_ii.json
+
+(Copy and paste the link into the tool)
+
 You can use the backend code to process your own files. Please note that the word2vec vectors are not included. You can generate them using the word2vec C tool, the Python gensim library, or download the vectors precomputed by Google.
 
-word2vec C tool (also has the precomputed vectors)
-https://code.google.com/p/word2vec/
-
-word2vec Python gensim
-https://radimrehurek.com/gensim/models/word2vec.html
+* word2vec C tool (also has the precomputed vectors) https://code.google.com/p/word2vec/
+* word2vec Python gensim https://radimrehurek.com/gensim/models/word2vec.html
 
 ## How it works
 
