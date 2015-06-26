@@ -54,7 +54,7 @@ After the dimensionality reduction, the vectors are written to a JSON file. The 
 
 ## Thesis
 
-The title of the thesis is "Semantic and stylistic text analysis for book summary evaluation". It was written at KTH Royal Institute of Technology in Stockholm and Aalto University in Helsinki. The Master thesis describes the development of a tool for the text analysis of book summaries. The tool evaluates a summary and its source material in regards to topics, stories, readability, and emotionality. It visualizes the results in a dashboard.
+The title of the thesis is "Semantic and stylistic text analysis for book summary evaluation". It was written at KTH Royal Institute of Technology in Stockholm and Aalto University in Helsinki. The Master thesis describes the development of a tool for the text analysis of book summaries.
 
 ## License
 
