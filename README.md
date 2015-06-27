@@ -52,10 +52,6 @@ The results of the word2vec vectors are projected down to 2D using the t-SNE Pyt
 
 After the dimensionality reduction, the vectors are written to a JSON file. The vectors are visualized using the D3.js Javascript data visualization library. Using D3.js, an interactive map was developed. With this map, the user can move around and zoom in and out.
 
-## Thesis
-
-The title of the thesis is "Semantic and stylistic text analysis for book summary evaluation". It was written at KTH Royal Institute of Technology in Stockholm and Aalto University in Helsinki. The Master thesis describes the development of a tool for the text analysis of book summaries.
-
 ## License
 
 2015 Hendrik Heuer hendrikheuer@gmail.com
